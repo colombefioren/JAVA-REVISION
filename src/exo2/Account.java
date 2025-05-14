@@ -8,7 +8,7 @@ public class Account {
   private double annualInterestRate;
   private Date dateCreated;
 
-  Account(int id, double balance, double annualInterestRate) {
+  public Account(int id, double balance, double annualInterestRate) {
     this.id = id;
     this.balance = balance;
     this.annualInterestRate = annualInterestRate;
