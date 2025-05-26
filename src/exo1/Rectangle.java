@@ -4,11 +4,11 @@ public class Rectangle {
   private double width;
   private double height;
 
-  Rectangle() {
+  public Rectangle() {
     this(1, 1);
   }
 
-  Rectangle(double width, double height) {
+  public Rectangle(double width, double height) {
     this.width = width;
     this.height = height;
   }
@@ -36,4 +36,12 @@ public class Rectangle {
   public void setHeight(double height) {
     this.height = height;
   }
+
+  @Override
+  public String toString() {
+      return "Rectangle[width = " + this .width + ", height = " + this.height + "]";
+  }
 }
+
+
+
