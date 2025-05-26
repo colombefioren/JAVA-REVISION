@@ -1,19 +1,22 @@
 package exo3;
 
 import exo2.Account;
+
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Client {
   private int id;
   private String name;
   private String phone;
-  private ArrayList<Account> accounts;
+  private Set<Account> accounts;
 
   public Client(int id, String name, String phone) {
     this.id = id;
     this.name = name;
     this.phone = phone;
-    this.accounts = new ArrayList<>();
+    this.accounts = new HashSet<>();
   }
 
   public boolean addAccount(Account account) {
@@ -70,11 +73,11 @@ public class Client {
     this.phone = phone;
   }
 
-  public ArrayList<Account> getAccounts() {
+  public Set<Account> getAccounts() {
     return accounts;
   }
 
-  public void setAccounts(ArrayList<Account> accounts) {
+  public void setAccounts(Set<Account> accounts) {
     this.accounts = accounts;
   }
 }
