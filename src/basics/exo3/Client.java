@@ -1,8 +1,7 @@
-package exo3;
+package basics.exo3;
 
-import exo2.Account;
+import basics.exo2.Account;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 

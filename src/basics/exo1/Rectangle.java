@@ -1,4 +1,4 @@
-package exo1;
+package basics.exo1;
 
 public class Rectangle {
   private double width;
@@ -37,9 +37,12 @@ public class Rectangle {
     this.height = height;
   }
 
-  @Override
-  public String toString() {
-      return "Rectangle[width = " + this .width + ", height = " + this.height + "]";
+  @Override
+
+  public String toString() {
+
+      return "Rectangle[width = " + this .width + ", height = " + this.height + "]"
+;
   }
 }
 

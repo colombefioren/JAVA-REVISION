@@ -1,4 +1,4 @@
-package exo5;
+package basics.exo5;
 
 import java.util.Date;
 

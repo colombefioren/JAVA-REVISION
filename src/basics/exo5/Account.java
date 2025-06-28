@@ -1,6 +1,6 @@
-package exo5;
+package basics.exo5;
 
-import exo3.Client;
+import basics.exo3.Client;
 import java.util.ArrayList;
 import java.util.Date;
 

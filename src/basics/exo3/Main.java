@@ -1,6 +1,6 @@
-package exo3;
+package basics.exo3;
 
-import exo2.Account;
+import basics.exo2.Account;
 
 public class Main {
   public static void main(String[] args) {

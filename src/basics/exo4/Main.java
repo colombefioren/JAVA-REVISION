@@ -1,7 +1,7 @@
-package exo4;
+package basics.exo4;
 
-import exo2.Account;
-import exo3.Client;
+import basics.exo2.Account;
+import basics.exo3.Client;
 import java.util.ArrayList;
 
 public class Main {

@@ -1,4 +1,4 @@
-package exo2;
+package basics.exo2;
 
 import java.util.Date;
 
