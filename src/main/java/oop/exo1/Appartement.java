@@ -12,5 +12,6 @@ public class Appartement {
     private String titre;
     private String description;
     private int loyer;
+    private Statut statut;
     private Endroit endroit;
 }
